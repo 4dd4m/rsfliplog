@@ -2172,3 +2172,144 @@ INFO - 2016-10-04 21:10:31 --> File loaded: C:\Program Files (x86)\EasyPHP-DevSe
 INFO - 2016-10-04 21:10:31 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\footer.php
 INFO - 2016-10-04 21:10:31 --> Final output sent to browser
 DEBUG - 2016-10-04 21:10:31 --> Total execution time: 1.0714
+INFO - 2016-10-04 21:16:21 --> Config Class Initialized
+INFO - 2016-10-04 21:16:21 --> Hooks Class Initialized
+DEBUG - 2016-10-04 21:16:21 --> UTF-8 Support Enabled
+INFO - 2016-10-04 21:16:21 --> Utf8 Class Initialized
+INFO - 2016-10-04 21:16:21 --> URI Class Initialized
+INFO - 2016-10-04 21:16:21 --> Router Class Initialized
+INFO - 2016-10-04 21:16:21 --> Output Class Initialized
+INFO - 2016-10-04 21:16:21 --> Security Class Initialized
+DEBUG - 2016-10-04 21:16:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-10-04 21:16:21 --> Input Class Initialized
+INFO - 2016-10-04 21:16:21 --> Language Class Initialized
+INFO - 2016-10-04 21:16:21 --> Loader Class Initialized
+INFO - 2016-10-04 21:16:21 --> Helper loaded: url_helper
+INFO - 2016-10-04 21:16:21 --> Helper loaded: form_helper
+INFO - 2016-10-04 21:16:21 --> Helper loaded: html_helper
+INFO - 2016-10-04 21:16:21 --> Database Driver Class Initialized
+INFO - 2016-10-04 21:16:22 --> Form Validation Class Initialized
+INFO - 2016-10-04 21:16:22 --> Session: Class initialized using 'database' driver.
+INFO - 2016-10-04 21:16:22 --> Model Class Initialized
+INFO - 2016-10-04 21:16:22 --> Model Class Initialized
+INFO - 2016-10-04 21:16:22 --> Controller Class Initialized
+INFO - 2016-10-04 21:16:22 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\loggedinbox.php
+INFO - 2016-10-04 21:16:22 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\leftside.php
+INFO - 2016-10-04 21:16:22 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\header.php
+ERROR - 2016-10-04 21:16:22 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\tradeform.php 110
+INFO - 2016-10-04 21:16:22 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\tradeform.php
+INFO - 2016-10-04 21:16:22 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\footer.php
+INFO - 2016-10-04 21:16:22 --> Final output sent to browser
+DEBUG - 2016-10-04 21:16:22 --> Total execution time: 1.0590
+INFO - 2016-10-04 21:16:36 --> Config Class Initialized
+INFO - 2016-10-04 21:16:36 --> Hooks Class Initialized
+DEBUG - 2016-10-04 21:16:36 --> UTF-8 Support Enabled
+INFO - 2016-10-04 21:16:36 --> Utf8 Class Initialized
+INFO - 2016-10-04 21:16:36 --> URI Class Initialized
+INFO - 2016-10-04 21:16:36 --> Router Class Initialized
+INFO - 2016-10-04 21:16:36 --> Output Class Initialized
+INFO - 2016-10-04 21:16:36 --> Security Class Initialized
+DEBUG - 2016-10-04 21:16:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-10-04 21:16:36 --> Input Class Initialized
+INFO - 2016-10-04 21:16:36 --> Language Class Initialized
+INFO - 2016-10-04 21:16:36 --> Loader Class Initialized
+INFO - 2016-10-04 21:16:36 --> Helper loaded: url_helper
+INFO - 2016-10-04 21:16:36 --> Helper loaded: form_helper
+INFO - 2016-10-04 21:16:36 --> Helper loaded: html_helper
+INFO - 2016-10-04 21:16:36 --> Database Driver Class Initialized
+INFO - 2016-10-04 21:16:37 --> Form Validation Class Initialized
+INFO - 2016-10-04 21:16:37 --> Session: Class initialized using 'database' driver.
+INFO - 2016-10-04 21:16:37 --> Model Class Initialized
+INFO - 2016-10-04 21:16:37 --> Model Class Initialized
+INFO - 2016-10-04 21:16:37 --> Controller Class Initialized
+INFO - 2016-10-04 21:16:37 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\loggedinbox.php
+INFO - 2016-10-04 21:16:37 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\leftside.php
+INFO - 2016-10-04 21:16:37 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\header.php
+INFO - 2016-10-04 21:16:37 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\history.php
+INFO - 2016-10-04 21:16:37 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\footer.php
+INFO - 2016-10-04 21:16:37 --> Final output sent to browser
+DEBUG - 2016-10-04 21:16:37 --> Total execution time: 1.0738
+INFO - 2016-10-04 21:16:45 --> Config Class Initialized
+INFO - 2016-10-04 21:16:45 --> Hooks Class Initialized
+DEBUG - 2016-10-04 21:16:45 --> UTF-8 Support Enabled
+INFO - 2016-10-04 21:16:45 --> Utf8 Class Initialized
+INFO - 2016-10-04 21:16:45 --> URI Class Initialized
+INFO - 2016-10-04 21:16:45 --> Router Class Initialized
+INFO - 2016-10-04 21:16:45 --> Output Class Initialized
+INFO - 2016-10-04 21:16:45 --> Security Class Initialized
+DEBUG - 2016-10-04 21:16:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-10-04 21:16:45 --> Input Class Initialized
+INFO - 2016-10-04 21:16:45 --> Language Class Initialized
+INFO - 2016-10-04 21:16:45 --> Loader Class Initialized
+INFO - 2016-10-04 21:16:45 --> Helper loaded: url_helper
+INFO - 2016-10-04 21:16:45 --> Helper loaded: form_helper
+INFO - 2016-10-04 21:16:45 --> Helper loaded: html_helper
+INFO - 2016-10-04 21:16:45 --> Database Driver Class Initialized
+INFO - 2016-10-04 21:16:46 --> Form Validation Class Initialized
+INFO - 2016-10-04 21:16:46 --> Session: Class initialized using 'database' driver.
+INFO - 2016-10-04 21:16:46 --> Model Class Initialized
+INFO - 2016-10-04 21:16:46 --> Model Class Initialized
+INFO - 2016-10-04 21:16:46 --> Controller Class Initialized
+INFO - 2016-10-04 21:16:46 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\loggedinbox.php
+INFO - 2016-10-04 21:16:46 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\leftside.php
+INFO - 2016-10-04 21:16:46 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\header.php
+INFO - 2016-10-04 21:16:46 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\edithistorybuy.php
+INFO - 2016-10-04 21:16:46 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\footer.php
+INFO - 2016-10-04 21:16:46 --> Final output sent to browser
+DEBUG - 2016-10-04 21:16:46 --> Total execution time: 1.0702
+INFO - 2016-10-04 21:16:55 --> Config Class Initialized
+INFO - 2016-10-04 21:16:55 --> Hooks Class Initialized
+DEBUG - 2016-10-04 21:16:55 --> UTF-8 Support Enabled
+INFO - 2016-10-04 21:16:55 --> Utf8 Class Initialized
+INFO - 2016-10-04 21:16:55 --> URI Class Initialized
+INFO - 2016-10-04 21:16:55 --> Router Class Initialized
+INFO - 2016-10-04 21:16:55 --> Output Class Initialized
+INFO - 2016-10-04 21:16:55 --> Security Class Initialized
+DEBUG - 2016-10-04 21:16:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-10-04 21:16:55 --> Input Class Initialized
+INFO - 2016-10-04 21:16:55 --> Language Class Initialized
+INFO - 2016-10-04 21:16:55 --> Loader Class Initialized
+INFO - 2016-10-04 21:16:55 --> Helper loaded: url_helper
+INFO - 2016-10-04 21:16:55 --> Helper loaded: form_helper
+INFO - 2016-10-04 21:16:55 --> Helper loaded: html_helper
+INFO - 2016-10-04 21:16:55 --> Database Driver Class Initialized
+INFO - 2016-10-04 21:16:56 --> Form Validation Class Initialized
+INFO - 2016-10-04 21:16:56 --> Session: Class initialized using 'database' driver.
+INFO - 2016-10-04 21:16:56 --> Model Class Initialized
+INFO - 2016-10-04 21:16:56 --> Model Class Initialized
+INFO - 2016-10-04 21:16:56 --> Controller Class Initialized
+INFO - 2016-10-04 21:16:56 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\loggedinbox.php
+INFO - 2016-10-04 21:16:56 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\leftside.php
+INFO - 2016-10-04 21:16:56 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\header.php
+INFO - 2016-10-04 21:16:56 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\history.php
+INFO - 2016-10-04 21:16:56 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\footer.php
+INFO - 2016-10-04 21:16:56 --> Final output sent to browser
+DEBUG - 2016-10-04 21:16:56 --> Total execution time: 1.0650
+INFO - 2016-10-04 21:16:58 --> Config Class Initialized
+INFO - 2016-10-04 21:16:58 --> Hooks Class Initialized
+DEBUG - 2016-10-04 21:16:58 --> UTF-8 Support Enabled
+INFO - 2016-10-04 21:16:58 --> Utf8 Class Initialized
+INFO - 2016-10-04 21:16:58 --> URI Class Initialized
+INFO - 2016-10-04 21:16:58 --> Router Class Initialized
+INFO - 2016-10-04 21:16:58 --> Output Class Initialized
+INFO - 2016-10-04 21:16:58 --> Security Class Initialized
+DEBUG - 2016-10-04 21:16:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-10-04 21:16:58 --> Input Class Initialized
+INFO - 2016-10-04 21:16:58 --> Language Class Initialized
+INFO - 2016-10-04 21:16:58 --> Loader Class Initialized
+INFO - 2016-10-04 21:16:58 --> Helper loaded: url_helper
+INFO - 2016-10-04 21:16:58 --> Helper loaded: form_helper
+INFO - 2016-10-04 21:16:58 --> Helper loaded: html_helper
+INFO - 2016-10-04 21:16:58 --> Database Driver Class Initialized
+INFO - 2016-10-04 21:16:59 --> Form Validation Class Initialized
+INFO - 2016-10-04 21:16:59 --> Session: Class initialized using 'database' driver.
+INFO - 2016-10-04 21:16:59 --> Model Class Initialized
+INFO - 2016-10-04 21:16:59 --> Model Class Initialized
+INFO - 2016-10-04 21:16:59 --> Controller Class Initialized
+INFO - 2016-10-04 21:16:59 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\loggedinbox.php
+INFO - 2016-10-04 21:16:59 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\leftside.php
+INFO - 2016-10-04 21:16:59 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\header.php
+INFO - 2016-10-04 21:16:59 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\edithistorybuy.php
+INFO - 2016-10-04 21:16:59 --> File loaded: C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\rsfliplog\application\views\footer.php
+INFO - 2016-10-04 21:16:59 --> Final output sent to browser
+DEBUG - 2016-10-04 21:16:59 --> Total execution time: 1.0686
