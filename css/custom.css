@@ -1,0 +1,236 @@
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+#-----------------------------
+body{
+    font-size: 12px;
+
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    vertical-align: middle;
+}
+
+.html5logo{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 15px;
+    margin-right: auto;
+
+}
+
+.customheader h1{
+    margin-top: 0;
+    padding-left: 15px;
+    margin-right: -15px;
+}
+
+.banktable tr:hover{
+	background:#D1E0E0;
+}
+
+.customheader{
+    height: 50px;
+    background: #0079c2;
+    border-bottom: 1px solid #0071b6;   
+    width: 100%;
+    margin-left: -15px; 
+    margin-right: -15px;
+    margin-bottom: 10px;
+    
+}
+
+.menubar{
+    margin-bottom: 10px;
+}
+
+.row{
+ margin-top: 0;
+ padding-top: 0;
+ margin-right: 15px;
+ margin-left: 15px;
+}
+
+#backform{
+    display: inline;
+}
+
+.nopadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+.tradeformlimityouhave{
+	line-height: 30px;
+	display: none;
+	
+}
+
+ .ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    display: none;
+    min-width: 160px;   
+    padding: 4px 0;
+    margin: 0 0 10px 25px;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+
+.ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.ui-state-hover, .ui-state-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0088cc;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background-image: none;
+}
+
+#ERROR-LOGIN REQUIRED start
+
+.error {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error-code {
+  bottom: 60%;
+  color: #2d353c;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.error-desc {
+  font-size: 12px;
+  color: #647788;
+}
+
+.m-b-10 {
+  margin-bottom: 10px!important;
+}
+
+.m-b-20 {
+  margin-bottom: 20px!important;
+}
+
+.m-t-20 {
+  margin-top: 20px!important;
+}
+
+#ERROR-LOGIN REQUIRED END
+
+#Pagination
+.pagination-container{
+    text-align: center;
+    
+}
+.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+#Pagination
