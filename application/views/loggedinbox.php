@@ -15,11 +15,16 @@
                     'alt' => $this->sessiondata['username'],
                     'class' => '',
                     'title' => 'Your avatar');
-
-                echo img($image_properties);
             } else {
-                echo "Chathead did not saved!";
+                 $image_properties = array(
+                    'src' => "images/chat/default_chat.png",
+                    'alt' => $this->sessiondata['username'],
+                    'class' => '',
+                    'title' => 'Your avatar');
+				
             }
+			
+			echo img($image_properties);
 
 
 

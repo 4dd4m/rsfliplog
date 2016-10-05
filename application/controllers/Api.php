@@ -38,7 +38,7 @@ class Api extends CI_Controller {
 	
 	public function fetchcategory($category){
 		echo '<h1>Entering category: '.$category.'</h1>';
-		//error_reporting(0);
+		error_reporting(0);
 		
 		$itemcount = $this->getCategoryCount($category);
 
@@ -65,9 +65,7 @@ class Api extends CI_Controller {
 				$file = $this->get_data($url);
 				$file = json_decode($file);
 				$response = get_object_vars($file);
-				
-
-				
+					
 				foreach($response['items'] as $value){
 					if($value->members == "true"){
 						$members = 1;
@@ -107,8 +105,9 @@ class Api extends CI_Controller {
 		#this is update my categories itemcount from the GE APi Itemcount
 		error_reporting(0);
 		$categoriesarray = $this->db->select('catid')->get('categories')->result_array();
-		
+		$total = 0;
 		foreach($categoriesarray as $category){
+			ob_end_flush();
 			$caturl = "http://services.runescape.com/m=itemdb_rs/api/catalogue/category.json?category=" . $category['catid'];
 			$file = $this->get_data($caturl);
             $file = json_decode($file);
@@ -117,20 +116,19 @@ class Api extends CI_Controller {
 				foreach($response['alpha'] as $letter => $data){
 					$all += $data->items;
 				}
+				$total += $all;
 				echo 'Fetching categoryid: ' .$category['catid'] . ' Items: ' . $all . '<br/>';
 				$this->db->where('catid',$category['catid'])->update('categories',['catcount' =>$all]);
-				sleep(6);
-				ob_flush();
-				flush();
-				
+				ob_start();
 		}
-		echo 'Fetching finished';
+		echo 'Fetching finished. Total Found of items: ' . $total;
 		ob_end_flush();		
 				#var_dump($response);	
 				##var_dump($response['alpha'][0]);
 	}
 	
 	public function getLettersCountByCat($category){
+		#gives back how many items in a category
 		$url = "http://services.runescape.com/m=itemdb_rs/api/catalogue/category.json?category=$category";
 		$file = $this->get_data($url);
         $file = json_decode($file);
@@ -232,8 +230,7 @@ class Api extends CI_Controller {
                 $url = "http://services.runescape.com/m=itemdb_rs/5026_obj_sprite.gif?id=" . $icon;
                 $img = "images/icons/" . $icon . ".gif";
                 $file = file($url);
-                $result = file_put_contents($img, $file);
-                
+                $result = file_put_contents($img, $file);               
             }
 			
 			
@@ -249,7 +246,7 @@ class Api extends CI_Controller {
 
   
     public function get_data($url) {
-		#used to get the data
+		#get the data from a specific url
         $ch = curl_init();
         $timeout = 600;
         curl_setopt($ch, CURLOPT_URL, $url);

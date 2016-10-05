@@ -446,7 +446,7 @@ class Logmodel extends CI_Model {
 	$buyquery = $this->db->select('*')
 		->where('historybuy.userid', $userid)
 		->join('apidb', 'historybuy.itemid=apidb.id')
-		->order_by('historybuy.date', 'ASC')
+		->order_by('historybuy.date', 'DESC')
 		->get('historybuy');
 	$buyresult = $buyquery->result_array();
 	$result = [];
