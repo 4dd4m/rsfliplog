@@ -1,5 +1,5 @@
 ###################
-My test app
+RSFliplog
 ###################
 
-Just to see how it works.
+I small scaled inventory tracking system to track trades, aggregate results, reports. Coded in codeigniter.
